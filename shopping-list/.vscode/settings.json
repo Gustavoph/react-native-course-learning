@@ -1,0 +1,12 @@
+{
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prisma-smart-formatter.typescript.defaultFormatter": "biomejs.biome",
+  "prisma-smart-formatter.typescriptreact.defaultFormatter": "biomejs.biome",
+}
