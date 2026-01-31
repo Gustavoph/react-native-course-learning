@@ -5,7 +5,8 @@ export const COLORS = {
   },
   text: {
     content: '#1E1E1E',
-    muted: '#828282'
+    muted: '#828282',
+    placeholder: '#74798B'
   },
   accent: {
     brand: '#2C46B1',

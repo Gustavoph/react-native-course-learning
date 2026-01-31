@@ -1,7 +1,12 @@
 import { TextInput, TextInputProps } from "react-native";
+import { styles } from "./styles";
 
-interface InputProps extends TextInputProps {}
-
-export function Input({ ...rest }: InputProps) {
-  return <TextInput {...rest} />;
+export function Input({ ...rest }: TextInputProps) {
+  return (
+    <TextInput
+      placeholderTextColor="#74798B"
+      style={styles.container}
+      {...rest}
+    />
+  );
 }
